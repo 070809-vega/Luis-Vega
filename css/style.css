@@ -1,0 +1,100 @@
+:root{
+    --barra-navegacion: rgba(0, 0, 0, .81);
+    --fondo: rgba(223, 223, 223, .29)
+}
+body{
+    background-color: var(--fondo);
+}
+.navbar{
+    height: 150px;
+    width: 100%;
+    background-color: var(--barra-navegacion);
+    position:fixed;
+    left: 0px;
+    top:0px;
+    right: 0px;
+}   
+.cont1, .cont2{
+    display: flex;
+}
+.cabecero1{
+    height: 450px;
+    width: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.cabecero1-1{
+    width:550px;
+    height:185px;
+    float: right;
+}
+.cabecero1-2{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 15px;
+}
+.cabecero2{
+    margin-top: 260px;
+    width: auto;
+    height: auto;   
+    display: flex;
+}
+.cabecero2-1{
+    height: 500px;
+    width: 550px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,180px);
+    grid-template-rows: repeat(3, 180px);
+    grid-template-areas: "area1 area2 area3"
+                        "area4 area5 area6"
+                        "area7 area8 area9";
+
+}
+.imagen1,.imagen2, .imagen3,.imagen4,
+.imagen5,.imagen6,.imagen7{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagen1{
+    grid-area: area1;
+}
+.imagen2{
+    grid-area: area2;
+}.imagen3{
+    grid-area: area3;
+}.imagen4{
+    grid-area: area4;
+}
+.imagen5{
+    grid-area: area5;
+}
+.imagen6{
+    grid-area: area6;
+}
+.imagen7{
+    grid-area: area8;
+}
+.imagen{
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px;
+}
+.imagen:hover{
+    width: 150px;
+    height: 150px;
+    transition: all 500ms ease-out;
+}
+.cabecero2-2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 48px ;
+    text-align: center;
+}
+.cab1{
+    display: block;
+    padding-top: 30px;
+}
