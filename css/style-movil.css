@@ -116,7 +116,6 @@
                              "box1-2";
         justify-content: center;
         align-content: center;
-        p
         
     }
     .cabecero1-1, .cabecero1-2{
@@ -200,8 +199,6 @@
                              "box1-2";
         justify-content: center;
         align-content: center;
-        p
-        
     }
     .cabecero1-1, .cabecero1-2{
         width: auto;
@@ -267,25 +264,23 @@
 }
  
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px)(max-width: 100px) {
     #contenedor1{
         display: grid;
-        justify-content: center;
         grid-template-columns: repeat(2, auto);
     }
     #titulo1, #titulo2{
-        font-size: 30px;
+        font-size: 22px;
     }
     .cabecero1{
         display: grid;
-        grid-template-columns: 560px;
+        grid-template-columns: 380px;
         grid-template-rows: repeat(2, 280px);
         grid-template-areas: "box1-1"
                              "box1-2";
-        justify-content: center;
-        align-content: center;
-        p
-        
+        justify-content: center;       
+        align-content: center; 
+        padding-left: 190px;
     }
     .cabecero1-1, .cabecero1-2{
         width: auto;
@@ -293,7 +288,7 @@
     }
     .cabecero1-1{
         grid-area: box1-1;
-        padding-left: 40px;
+        padding-left: 10px;
     }
     .cabecero1-2{
         display: grid;
@@ -302,13 +297,14 @@
     .cabecero2{
         display: grid;
         margin-top: 0px;
-        grid-template-columns: 480px;
-        grid-template-rows: repeat(2, 270px);
+        grid-template-columns: 380px;
+        grid-template-rows: repeat(2, 280px);
         grid-template-areas: "box1"
                              "box2";
         justify-content: center;
         justify-items: center;
         padding-top: 150px;
+        padding-left: 190px;
     }
     .cabecero2-1{
         grid-area: box2;
@@ -331,13 +327,13 @@
         font-size: 38px;
     }
     #tipo2{
-       font-size: 26px;
+       font-size: 30px;
     }
     #tipo3{
-        font-size: 36px;
+        font-size: 38px;
     }
     #tipo4{
-        font-size: 26px;
+        font-size: 30px;
     }
     .imagen{
         width: 90px;
