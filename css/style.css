@@ -63,9 +63,11 @@ body{
 }
 .imagen2{
     grid-area: area2;
-}.imagen3{
+}
+.imagen3{
     grid-area: area3;
-}.imagen4{
+}
+.imagen4{
     grid-area: area4;
 }
 .imagen5{
@@ -92,7 +94,6 @@ body{
     height: 100%;
     display: block;
     padding-top: 48px ;
-    text-align: center;
 }
 .cab1{
     display: block;
