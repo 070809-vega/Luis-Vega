@@ -270,11 +270,11 @@
         grid-template-columns: repeat(2, auto);
     }
     #titulo1, #titulo2{
-        font-size: 20px;
+        font-size: 25px;
     }
     .cabecero1{
         display: grid;
-        grid-template-columns: 380px;
+        grid-template-columns: 550px;
         grid-template-rows: repeat(2, 280px);
         grid-template-areas: "box1-1"
                              "box1-2";
@@ -297,7 +297,7 @@
     .cabecero2{
         display: grid;
         margin-top: 0px;
-        grid-template-columns: 380px;
+        grid-template-columns: 550px;
         grid-template-rows: repeat(2, 280px);
         grid-template-areas: "box1"
                              "box2";
