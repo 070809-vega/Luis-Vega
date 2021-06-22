@@ -264,13 +264,13 @@
 }
  
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 599px)(max-width: 100px) {
+@media only screen and (max-width: 599px) and (min-width: 100px) {
     #contenedor1{
         display: grid;
         grid-template-columns: repeat(2, auto);
     }
     #titulo1, #titulo2{
-        font-size: 22px;
+        font-size: 20px;
     }
     .cabecero1{
         display: grid;
@@ -324,13 +324,13 @@
         grid-area: box1;
     }
     #tipo1{
-        font-size: 38px;
+        font-size: 30px;
     }
     #tipo2{
        font-size: 30px;
     }
     #tipo3{
-        font-size: 38px;
+        font-size: 30px;
     }
     #tipo4{
         font-size: 30px;
