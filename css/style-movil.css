@@ -1,43 +1,53 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 100px){
     body{
         background-color: rgb(231, 182, 182);
     }
-    #divTitulo{
-        width: 180px;
-        height: auto;
+    .contenedorPrincipal{
+        display: grid;
+        grid-template-columns: 600px;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "area1"
+                             "area2"
+                             "area3"
+                             "area4"
+                             "area5";
     }
     .contenedor1{
         display: grid;
-        grid-template-columns: 600px;
         grid-template-rows: repeat(2, auto);
         grid-template-areas: "area1"
                              "area2";
     }
     .contenedor1-1{
-        margin-top: 80px;
         grid-area: area1;
-
     }
     #tipo1{
+    }
+    #tipo2{
     }
     .contenedor1-2{
         grid-area: area2;
     }
     .contenedor2{
-        margin-top: 100px;
         display: grid;
-        grid-template-columns: 600px;
         grid-template-rows: repeat(2, auto);
+        margin-top: 100px;
         grid-template-areas: "area1" 
                              "area2";
     }
-    .contenedorImagenes{
+    .contenedor2-1{
         grid-area: area2;
+        width: auto;
+        height: auto;
     }
-    .contenedorHerramientas{
-        margin-top: 90px;
+    .contenedor2-2{
         grid-area: area1;
+        width: auto;
+        height: auto;
+    }
+    .formulario{
+        grid-area: area5;
     }
 
 }

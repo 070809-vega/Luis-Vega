@@ -4,6 +4,7 @@ body{
 }
 .contenedorPrincipal{
    margin-top: 80px;
+   display:grid
 }
 .contenedor1{
     display: grid;
