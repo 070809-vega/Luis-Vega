@@ -2,24 +2,29 @@
 body{
     background-color: white;
 }
-.container{
-}
 .contenedorPrincipal{
-   margin-top: 50px;
+   margin-top: 80px;
 }
 .contenedor1{
     display: grid;
     grid-template-columns: repeat(2, auto);
+    grid-template-areas: "area1 area2";
 }
 .contenedor1-1{
     margin-top: 80px;
+    grid-area: area1;
+}
+.contenedor1-2{
+    grid-area: area2;
 }
 .contenedor2{
     display: grid;
     grid-template-columns: repeat(2, auto);
-    margin-top: 80px;
+    margin-top: 100px;
+    grid-template-areas: "area1 area2";
 }
 .contenedorImagenes{
+    grid-area: area1;
     display: grid;
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, auto);
@@ -31,4 +36,31 @@ body{
 }
 .contenedorHerramientas{
     margin-top: 90px;
+    grid-area: area2;
+}
+.imagenPrincipal{
+    border-radius: 8px;
+    box-shadow: 0px 15px 15px;
+}
+.imagen{
+    border-radius: 22px;
+    box-shadow: 0px 15px 15px;
+}
+.imagen:hover{
+    overflow: hidden;
+    width: 145px;
+    height: 145px;
+    transition: all 500ms ease-out;
+}
+.formulario{
+    margin-top: 80px;
+    display: grid;
+    width: 800px;
+    height: 800px;
+}
+.contacto{
+    text-align: center;
+}
+.form-control{
+    background-color:rgb(197, 197, 197);
 }
