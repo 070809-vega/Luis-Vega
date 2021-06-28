@@ -1,55 +1,63 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) and (min-width: 100px){
+@media only screen and (max-width: 600px) {
     body{
-        background-color: rgb(231, 182, 182);
-    }
-    .contenedorPrincipal{
-        display: grid;
-        grid-template-columns: 600px;
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas: "area1"
-                             "area2"
-                             "area3"
-                             "area4"
-                             "area5";
-    }
-    .contenedor1{
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        grid-template-areas: "area1"
-                             "area2";
-    }
-    .contenedor1-1{
-        grid-area: area1;
-    }
-    #tipo1{
-    }
-    #tipo2{
-    }
-    .contenedor1-2{
-        grid-area: area2;
-    }
-    .contenedor2{
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        margin-top: 100px;
-        grid-template-areas: "area1" 
-                             "area2";
-    }
-    .contenedor2-1{
-        grid-area: area2;
+        background-color: blueviolet;
         width: auto;
         height: auto;
     }
-    .contenedor2-2{
-        grid-area: area1;
+    .cont1{
+        height: auto;
+        width: auto;
+    }
+    .cont2{
         width: auto;
         height: auto;
     }
-    .formulario{
-        grid-area: area5;
+    .cont3{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        justify-content: center;
+        align-items: center;
     }
-
+    .cont4{
+        width: auto;
+        height: auto;
+    }
+    .div1{
+        height: auto;
+    }
+    .div2{
+        height: auto;
+    }
+    .div3{
+        height: auto;
+    }
+    .div4{
+        height: auto;
+    }
+    .letra1{
+        width: 180px;
+        height: 60px;
+    }
+    .letra2{
+        width: 70px;
+        height: 60px;
+    }
+    .tipo1{
+        width: 270px;
+        height: 60px;
+    }
+    .tipo2{
+        width: 380px;
+        height: 70px;
+    }
+    .imagen{
+        width: 80px;
+        height: 80px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

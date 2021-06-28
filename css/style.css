@@ -1,67 +1,42 @@
 *{box-sizing: border-box;}
 body{
-    background-color: white;
+ background-color: white;
 }
-.contenedorPrincipal{
-   margin-top: 80px;
-   display:grid
-}
-.contenedor1{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-areas: "area1 area2";
-}
-.contenedor1-1{
-    margin-top: 80px;
-    grid-area: area1;
-}
-.contenedor1-2{
-    grid-area: area2;
-}
-.contenedor2{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    margin-top: 100px;
-    grid-template-areas: "area1 area2";
-}
-.contenedorImagenes{
-    grid-area: area1;
-    display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "area1 area2 area3"
-                         "area4 area5 area6"
-                         "area7 area8 area9";
-    justify-content: center;
+.cont1{
     height: 500px;
 }
-.contenedorHerramientas{
-    margin-top: 90px;
-    grid-area: area2;
-}
-.imagenPrincipal{
-    border-radius: 8px;
-    box-shadow: 0px 15px 15px;
-}
-.imagen{
-    border-radius: 22px;
-    box-shadow: 0px 15px 15px;
-}
-.imagen:hover{
-    overflow: hidden;
-    width: 145px;
-    height: 145px;
-    transition: all 500ms ease-out;
-}
-.formulario{
-    margin-top: 80px;
+.cont2{
+    height: 500px;
     display: grid;
-    width: 800px;
-    height: 800px;
+    justify-content: center;
+    align-items: center;
 }
-.contacto{
-    text-align: center;
+.cont3{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3, 150px);
+    justify-content: center;
+    align-items: center;
 }
-.form-control{
-    background-color:rgb(197, 197, 197);
+.cont4{
+    height: 500px;
+}
+.div1{
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    height: 250px;
+}
+.div4{
+    height: 250px;
 }
