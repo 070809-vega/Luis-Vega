@@ -1,7 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body{
-    }
     .cont1{
         height: auto;
         width: auto;
