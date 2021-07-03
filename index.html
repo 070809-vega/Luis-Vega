@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-movil.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Luis Vega</title>
   </head>
   <body>
@@ -13,9 +14,9 @@
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <div class="row">
-          <div class="titulo1 col-sm-6">
+          <div class="col-sm-6">
             <svg class="letra1" xmlns="http://www.w3.org/2000/svg" width="487" height="57" viewBox="0 0 487 57">
-              <text class="" data-name="Desarrollo Web Plus+" fill="#fff" font-size="50" font-family="Georgia"><tspan x="0" y="46">D</tspan><tspan y="46" fill="#929292">esarrollo </tspan><tspan y="46">W</tspan><tspan y="46" fill="#929292">eb </tspan><tspan y="46">P</tspan><tspan y="46" xml:space="preserve" fill="#929292">lus+      </tspan></text>
+              <text class="" data-name="Desarrollo Web Plus+" fill="#fff" font-size="50" font-family="Georgia"><tspan x="0" y="46">D</tspan><tspan y="46" fill="#929292">esarrollo </tspan><tspan y="46">W</tspan><tspan y="46" fill="#929292">eb </tspan><tspan y="46">P</tspan><tspan y="46" xml:space="preserve" fill="#929292">lus+</tspan></text>
            </svg>
           </div>
         </div>
@@ -34,12 +35,12 @@
           <div class="cont1 col-sm-6">
               <div class="row">
                   <div class="div1 col-sm-12">
-                    <p>Un poco sobre mi</p>
+                    <p class="titulo1">Un poco sobre mi</p>
                   </div>
               </div>
               <div class="row">
                   <div class="div2 col-sm-12">
-                    <p>Hola soy Luis Antonio Vega soy freelance especializado en Diseño y Desarrollo web, tengo mas de un año de experiencia
+                    <p class="texto">Hola soy Luis Antonio Vega soy freelance especializado en Diseño y Desarrollo web, tengo mas de un año de experiencia
                       diseñando, creando y adaptando las paginas web a dispositivos móviles para que el usuario tenga una mejor experiencia al momento de navegar</p>
                   </div>
               </div>
@@ -51,7 +52,7 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="contenedorHerramientas row">
         <div class="cont3 col-sm-6">
             <div class="divimagen"><img class="imagen" src="img/css.png" width="135px" height="135px" ></div>
               <div class="divimagen"><img class="imagen" src="img/angularjs_original_logo_icon_146649.png" width="135px" height="135px" ></div>
@@ -64,12 +65,12 @@
         <div class="cont4 col-sm-6">
           <div class="row">
             <div class="div3 col-sm-12">
-              <p>Herramientas que utilizo</p>
+              <p class="titulo1">Herramientas que utilizo</p>
             </div>
           </div>
           <div class="row">
             <div class="div4 col-sm-12">
-                <p>Trato de encontrar el balance en todas las herramientas que utilizo, tanto para el front-end y el back-end.
+                <p class="texto">Trato de encontrar el balance en todas las herramientas que utilizo, tanto para el front-end y el back-end.
                 Adobe Xd lo utilizo para el diseño web y tecnologías como nodejs la utilizo para la parte del back-end.
                 He trabajado en paginas web personales y pequeñas startups</p>
             </div>
@@ -79,7 +80,7 @@
     </div>
 
       <div class="container formulario">
-        <p><h1 class="contacto">Contacto</h1></p>
+        <p><h1 class="contacto"><center>Contacto</center></h1></p>
         <div class="mb-3">
           <label for="" class="form-label"><h2>Nombre</h2></label>
           <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
@@ -96,7 +97,9 @@
           <label for="" class="form-label"><h2>Descripcion</h2></label>
           <textarea class="form-control" id="" rows="8"></textarea>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit">
+        <div class="d-grid gap-1">
+        <input class="btn btn-secondary btn-lg" type="submit" value="Enviar">
+      </div>
       </div> 
 
     </div>

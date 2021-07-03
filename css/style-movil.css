@@ -7,8 +7,10 @@
     .cont2{
         width: auto;
         height: auto;
+        margin-bottom: 50px;
     }
     .cont3{
+        grid-area: area2;
         width: auto;
         height: auto;
         display: grid;
@@ -20,25 +22,31 @@
     .cont4{
         width: auto;
         height: auto;
+        grid-area: area1;
     }
     .div1{
         height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .div2{
         height: auto;
+        margin-bottom: 30px;
     }
     .div3{
         height: auto;
+        margin-bottom: 30px;
     }
     .div4{
         height: auto;
+        margin-bottom: 30px;
     }
     .letra1{
         width: 180px;
         height: 60px;
     }
     .letra2{
-        width: 70px;
+        width: 90px;
         height: 60px;
     }
     .tipo1{
@@ -52,6 +60,24 @@
     .imagen{
         width: 80px;
         height: 80px;
+    }
+    .contenedorHerramientas{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "area1" 
+                             "area2";
+
+    }
+    .titulo1{
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .texto{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        text-align: justify;
     }
 }
 

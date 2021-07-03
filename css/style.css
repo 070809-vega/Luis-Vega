@@ -40,3 +40,14 @@ body{
 .div4{
     height: 250px;
 }
+.form-control{
+    border-color:black;
+}
+.titulo1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.texto{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
