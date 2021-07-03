@@ -2,16 +2,13 @@
 @media only screen and (max-width: 600px) {
     .cont1{
         height: auto;
-        width: auto;
     }
     .cont2{
-        width: auto;
         height: auto;
         margin-bottom: 50px;
     }
     .cont3{
         grid-area: area2;
-        width: auto;
         height: auto;
         display: grid;
         grid-template-columns: repeat(3, 100px);
@@ -20,7 +17,6 @@
         align-items: center;
     }
     .cont4{
-        width: auto;
         height: auto;
         grid-area: area1;
     }
@@ -79,24 +75,185 @@
         font-size: 18px;
         text-align: justify;
     }
+    .imagen:hover{
+        transition: all 500ms ease-out;
+        box-shadow: 8px 8px 15px;
+        width: 90px;
+        height: 90px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .cont1{
+        height: auto;
+        width: auto;
+    }
+    .cont2{
+        height: auto;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .cont3{
+        grid-area: area2;
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        justify-content: center;
+        align-items: center;
+    }
+    .cont4{
+        height: auto;
+        width: auto;
+        grid-area: area1;
+    }
+    .div1{
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .div2{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .div3{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .div4{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .letra1{
+        width: 180px;
+        height: 60px;
+    }
+    .letra2{
+        width: 90px;
+        height: 60px;
+    }
+    .tipo1{
+        width: 270px;
+        height: 60px;
+    }
+    .tipo2{
+        width: 380px;
+        height: 70px;
+    }
+    .imagen{
+        width: 80px;
+        height: 80px;
+    }
+    .contenedorHerramientas{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "area1" 
+                             "area2";
+
+    }
+    .titulo1{
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .texto{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px){
 
-}
+    .cont1{
+        height: auto;
+        width: auto;
+    }
+    .cont2{
+        height: auto;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .cont3{
+        grid-area: area2;
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        justify-content: center;
+        align-items: center;
+    }
+    .cont4{
+        height: auto;
+        width: auto;
+        grid-area: area1;
+    }
+    .div1{
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .div2{
+        height: auto;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .div3{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .div4{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .letra1{
+        width: 180px;
+        height: 60px;
+    }
+    .letra2{
+        width: 90px;
+        height: 60px;
+    }
+    .tipo1{
+        width: 270px;
+        height: 60px;
+    }
+    .tipo2{
+        width: 380px;
+        height: 70px;
+    }
+    .imagen{
+        width: 80px;
+        height: 80px;
+    }
+    .contenedorHerramientas{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "area1" 
+                             "area2";
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+    }
+    .titulo1{
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .texto{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .imagen:hover{
+        transition: all 500ms ease-out;
+        box-shadow: 8px 8px 15px;
+        width: 100px;
+        height: 100px;
+    }
 }

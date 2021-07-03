@@ -2,6 +2,10 @@
 body{
  background-color: white;
 }
+.contenedorPrincipal{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .cont1{
     height: 500px;
 }
@@ -16,7 +20,9 @@ body{
     display: grid;
     grid-template-columns: repeat(3,150px);
     grid-template-rows: repeat(3, 150px);
+    border-radius: 100px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
 }
 .cont4{
@@ -29,16 +35,20 @@ body{
     align-items: center;
 }
 .div2{
-    height: 250px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+}
+.div3{
+    height: auto;
     display: grid;
     justify-content: center;
     align-items: center;
 }
-.div3{
-    height: 250px;
-}
 .div4{
-    height: 250px;
+    display: grid;
+    height: auto;
 }
 .form-control{
     border-color:black;
@@ -46,8 +56,27 @@ body{
 .titulo1{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    font-size: 40px;
+    text-align: center;
 }
 .texto{
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
     text-align: justify;
+}
+.formulario{
+    margin-bottom: 30px;
+}
+.imagen1{
+    box-shadow: 8px 8px 15px;
+    border-radius: 5px;
+}
+.imagen{
+    border-radius: 20px;
+}
+.imagen:hover{
+    transition: all 500ms ease-out;
+    box-shadow: 8px 8px 15px;
+    width: 150px;
+    height: 150px;
 }
