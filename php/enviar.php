@@ -6,8 +6,7 @@
     $descripcion = $_POST['descripcion'];
     $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono: " . $telefono . "\nDescripcion: " . $descripcion;
     mail($destino, "Contacto", $contenido);
-    echo "<script>alert('correo enviado exitosamente')</script>";
-    echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";
+    header("Location:index.html");
 
 
 ?>
