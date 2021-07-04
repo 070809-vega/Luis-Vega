@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6">
@@ -78,30 +78,30 @@
         </div>
       </div>
     </div>
-    <form action="enviar.php" method="POST">
-      <div class="container formulario">
-        <p><h1 class="contacto"><center>Contacto</center></h1></p>
-        <div class="mb-3">
-          <label for="" class="form-label"><h2>Nombre</h2></label>
-          <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre" name="nombre">
+    <div class="container">
+      <div class="contacto row">
+        <div class="cont5 col-sm-12">
+          <p class="titulo1">Contacto</p>
         </div>
-        <div class="mb-3">
-          <label for="" class="form-label"><h2>Correo</h2></label>
-          <input class="form-control form-control-lg" type="text" placeholder="Correo" aria-label="Correo" name="correo">
-        </div>
-        <div class="mb-3">
-          <label for="" class="form-label"><h2>Telefono</h2></label>
-          <input class="form-control form-control-lg" type="number" placeholder="Telefono" name="telefono">
-        </div>
-        <div class="mb-3">
-          <label for="" class="form-label"><h2>Descripcion</h2></label>
-          <textarea class="form-control" id="" rows="8" name="descripcion"></textarea>
-        </div>
-        <div class="d-grid gap-1">
-        <input class="btn btn-secondary btn-lg" type="submit" value="Enviar">
       </div>
-      </div> 
-    </form>
+      <div class="enlaces row">
+        <div class="con col-sm-3 col-4">
+          <a href="https://api.whatsapp.com/send?phone=+525511105630"><img src="img/contacto/whatsapp.png" class="cont" alt="" width="110px" height="110px"></a>
+        </div>
+        <div class="con col-sm-2 col-4">
+          <a href="mailto:vegalu63@gmail.com"><img src="img/contacto/gmail.png" class="cont" alt="" width="110px" height="110px"></a>
+        </div>
+        <div class="con col-sm-3 col-4">
+          <a href="https://www.facebook.com/luisantonio.vegavargas/"><img src="img/contacto/facebook.png" class="cont" alt="" width="110px" height="110px"></a>
+        </div>
+        <div class="con col-sm-2 col-4">
+          <a href="https://www.instagram.com/v3ga_ve/"><img src="img/contacto/instagram.png" class="cont" alt="" width="110px" height="110px"></a>
+        </div>
+        <div class="con col-sm-2 col-4">
+          <a href="https://www.linkedin.com/in/luis-antonio-vega-vargas-687b95199/"><img src="img/contacto/linkedin.png" class="cont" alt="" width="110px" height="110px"></a>
+        </div>
+      </div>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>

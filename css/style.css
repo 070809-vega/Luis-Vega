@@ -64,9 +64,6 @@ body{
     font-size: 20px;
     text-align: justify;
 }
-.formulario{
-    margin-bottom: 30px;
-}
 .imagen1{
     box-shadow: 8px 8px 15px;
     border-radius: 5px;
@@ -79,4 +76,14 @@ body{
     box-shadow: 8px 8px 15px;
     width: 150px;
     height: 150px;
+}
+.contacto{
+    margin-bottom: 30px;
+}
+.enlaces{
+    margin-bottom: 50px;
+}
+.con{
+    display: grid;
+    justify-content: center;
 }
